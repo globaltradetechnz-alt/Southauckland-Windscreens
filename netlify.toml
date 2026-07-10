@@ -1,3 +1,22 @@
+[[redirects]]
+  from = "/services/"
+  to = "/services.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insurance-claims/"
+  to = "/insurance-claims.html"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
 [[headers]]
   for = "/.well-known/*"
   [headers.values]
