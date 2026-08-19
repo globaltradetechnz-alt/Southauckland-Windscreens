@@ -56,6 +56,7 @@ h1,h2,h3,h4{color:var(--ink);line-height:1.2;font-weight:700}
 .eyebrow{display:inline-block;background:rgba(245,158,11,.18);color:#fbdaa2;border:1px solid rgba(245,158,11,.4);padding:6px 16px;border-radius:999px;font-weight:700;font-size:.82rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:20px}
 .eyebrow.light{background:#fef8ee;color:var(--ad);border-color:#fbd89d}
 .hero-brand-img{display:block;width:100%;max-width:560px;height:auto;margin:6px 0 24px}
+.hero-disclaimer{font-size:.82rem;color:#d6e2f0;opacity:.8;max-width:560px;line-height:1.5;margin-bottom:22px}
 .hero h1{color:#fff;font-size:2.7rem;max-width:840px;margin-bottom:18px}
 .hero p{font-size:1.2rem;color:#d6e2f0;max-width:680px;margin-bottom:8px}
 .hero .btn-row{justify-content:flex-start}
